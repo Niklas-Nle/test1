@@ -2,14 +2,15 @@
   "name": "testprojekt1",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-"deploy": "gh-pages -d build"
-  },
+"scripts": {
+  "dev": "next dev --turbopack",
+  "build": "next build",
+  "export": "next export",
+  "start": "next start",
+  "lint": "next lint",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d out"
+},
   "dependencies": {
     "next": "15.2.2",
     "react": "^19.0.0",
@@ -23,7 +24,6 @@
     "gh-pages": "^6.3.0",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
-  ,"homepage": "https://Niklas-Nle.github.io/aura-clicker"
-
+  },
+"homepage": "https://Niklas-Nle.github.io/test1"
 }
